@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #2c3e50;
+}
+h1, strong{
+    position: relative;
+    text-align: center;
+    align-items: center;
+    margin-top: 200px;
+    color: orangered;
+}
+img{
+    align-items: center;
+    margin-left: 600px; 
+}
+table{
+    margin-left: 450px;
+}
+table th td{
+    text-align: center;
+    align-items: center;
+    
+}

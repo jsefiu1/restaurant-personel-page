@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+body {
+    min-height: 100vh;
+    background-image: url(pizzakinga.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-decoration: none;
+}
+
+header {
+    position: fixed;
+    top: 0;  left: 0; right: 0;
+    background: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    font-weight: bolder;
+    font-size: 25px;
+    color: #fff;
+}
+
+header .navbar ul{
+    list-style: none;
+}
+
+header .navbar ul li{
+    position: relative;
+    float: left;
+}
+
+header .navbar ul li a{
+    font-size: 20px;
+    padding: 20px;
+    color: #fff;
+    display: block;
+}
+
+header .navbar ul li a:hover{
+    background: #2c3e50;
+    color: orangered;
+    transition: 0.6s;
+}
+
+header .navbar ul li ul{
+    position: absolute;
+    width: 200px;
+    background: #2c3e50;
+    left: 0;  
+    display: none;
+}
+
+header .navbar ul li ul li{
+    width: 100%;
+    border-top: 1px solid black rgba(0, 0, 0, 0.1);
+}
+
+header .navbar ul li ul li ul{
+    left: 200px;
+    top: 0;
+}
+
+header .navbar ul li:hover > ul{
+    display: initial;
+}
+
+  
